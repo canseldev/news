@@ -1,0 +1,111 @@
+html, body, p {
+    margin:0;
+    padding:0;
+}
+body {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .container .left-top ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.top .container .left-top ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.top .container .right-top ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.top .container .right-top ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.top .container .right-top ul li .fb {
+   background-color: #1877f2;
+    
+}
+
+.top .container .right-top ul li .ig {
+    background-color: #c32aa3;
+}
+.top .container .right-top ul li .tw {
+    background-color: #03a5f0;
+}
+.top .container .right-top ul li .in {
+    background-color: #0a66c2;
+}
+.top .container .right-top ul li .yt {
+    background-color: #ff0000;
+}
+.top .container .right-top ul li .pt {
+    background-color: #bd081c;
+}
+.container .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.container .menu .logo {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .menu .menuler ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+  
+
+}
+.container .menu .menuler ul li a {
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+.container .menu .search input {
+    background-color: black;
+    color: aliceblue;
+    margin: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 270px;
+   
+    
+}
+.container .menu .search input:focus {
+   outline: none;
+}
