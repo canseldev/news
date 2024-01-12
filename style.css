@@ -109,3 +109,109 @@ body {
 .container .menu .search input:focus {
    outline: none;
 }
+.container .main {
+    display: flex;
+}
+.container .main .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .main .left .mainphoto img {
+    width: 100%;
+    height: 600px;
+    border-radius: 5px;
+    margin: 15px 0;
+
+} .container .main .left .mainphoto p {
+    font-size: 12px;
+    color: grey;
+}
+.container .main .left .mainphoto p span{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 40px;
+    font-size: 12px;
+
+}
+.container .main .left .mainphoto .bottom ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+.container .main .left .mainphoto .bottom ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+.container .main .right {
+    width: 800px;
+}
+.container .main .right .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+.container .main .right .head .icon {
+    font-size: 26px;
+}
+.container .main .right .post img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.container .main .right .post {
+    display: flex;
+    align-items: center;
+}
+.container .main .right .post .ingredit p {
+    font-size: 12px;
+    color: grey;
+}
+.container .main .right .post  .ingredit p span{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 40px;
+    font-size: 12px;
+
+}
+.container .main .right .post  .ingredit h1 {
+    font-size: 16px;
+    text-decoration: underline;
+}
+.container .main .right .post .ingredit .bottom ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+.container .main .right .post .bottom ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 10px;
+}
+.container .main .right .button {
+    display: flex;
+    justify-content: end;
+}
+.container .main .right .button button {
+    border: 1px solid gray;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin: 15px 0;
+  
+}
+.container .banner img {
+    width: 1200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 40px 0;
+
+}
